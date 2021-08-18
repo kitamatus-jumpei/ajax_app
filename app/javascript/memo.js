@@ -13,8 +13,7 @@ const buildHTML = (XHR) => {
 };
 
 function post (){
-  //リクエストを送信する処理
-  // console.log("イベント発火");
+  
   const submit = document.getElementById("submit");
   submit.addEventListener("click", (e) => {
     e.preventDefault();
